@@ -1,0 +1,74 @@
+
+.banner {
+background-image: url("../../images/earth.jpg");
+background-size: cover;
+background-position: center;
+padding: 200px;
+display:flex;
+text-align:center;
+justify-content: center;
+
+}
+
+.banner h1 {
+ color:white;
+ font:Poppins;
+
+}
+
+
+.btn-primary {
+  color:red;
+  background:white;
+  font-weight:bold;
+  font-weight:medium;
+  border-radius:5px;
+  padding:10px 15px;
+  margin-right:40px;
+  opacity:0.9;
+
+}
+
+.btn-primary:hover {
+  color:black;
+}
+
+.container {
+width: 900px;
+margin:auto;
+}
+
+.container h2 {
+  font-weight:bold;
+  font-size:24px;
+  text-align:center;
+}
+
+.info-cards {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.card-small {
+width:242px;
+height:275px;
+border-radius:4px;
+border:0.3px solid #999999;
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+text-align: center;
+padding: 20px;
+}
+
+.footer {
+  text-align:center;
+  padding:60px;
+  background-color:#070c0e;
+}
+
+.footer-links {
+  font-size:60px;
+  color:#b90000;
+
+
+}
